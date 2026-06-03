@@ -1,11 +1,5 @@
 use tauri::tray::TrayIconBuilder;
 
-// Learn more about Tauri commands at https://tauri.app/develop/calling-rust/
-#[tauri::command]
-fn greet(name: &str) -> String {
-    format!("Hello, {}! You've been greeted from Rust!", name)
-}
-
 /// Inject the given text at the current cursor position.
 ///
 /// Stub: real injection (enigo / macOS Accessibility) lands in a follow-up plan.
@@ -30,7 +24,7 @@ pub fn run() {
                 .build(app)?;
             Ok(())
         })
-        .invoke_handler(tauri::generate_handler![greet, inject_text])
+        .invoke_handler(tauri::generate_handler![inject_text])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }
