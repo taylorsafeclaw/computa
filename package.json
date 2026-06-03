@@ -1,0 +1,15 @@
+{
+  "name": "computa",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@11.4.0",
+  "scripts": {
+    "tauri:dev": "pnpm --filter @computa/desktop tauri dev",
+    "tauri:build": "pnpm --filter @computa/desktop tauri build",
+    "dev": "pnpm --filter @computa/desktop dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r --if-present test",
+    "lint": "pnpm -r --if-present lint",
+    "typecheck": "pnpm -r --if-present typecheck"
+  }
+}
