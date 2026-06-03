@@ -10,7 +10,7 @@ members = [
 edition = "2021"
 license = "MIT"
 authors = ["Taylor Allen"]
-repository = "https://github.com/taylorallen0913/computa"
+repository = "https://github.com/taylorsafeclaw/computa"
 
 [profile.release]
 codegen-units = 1

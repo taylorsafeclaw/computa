@@ -1,9 +1,11 @@
 [package]
 name = "desktop"
 version = "0.1.0"
-description = "A Tauri App"
-authors = ["you"]
-edition = "2021"
+description = "Computa desktop app (Tauri Rust core)"
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
