@@ -14,7 +14,7 @@ See [`docs/architecture.md`](docs/architecture.md).
 
 ## Development
 
-Prerequisites: Rust (stable), Node 20+, pnpm 9+. macOS for now.
+Prerequisites: Rust (stable), Node 22+, pnpm 11+. macOS for now.
 
 ```bash
 pnpm install            # install JS deps

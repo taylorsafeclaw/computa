@@ -4,7 +4,7 @@ Thanks for your interest! Computa is MIT-licensed and contributions are welcome.
 
 ## Getting started
 
-1. Install Rust (stable), Node 20+, and pnpm 9+.
+1. Install Rust (stable), Node 22+, and pnpm 11+.
 2. `pnpm install`
 3. `pnpm tauri:dev` to run, `cargo test` + `pnpm test` to test.
 

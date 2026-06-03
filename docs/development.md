@@ -3,7 +3,7 @@
 ## Prerequisites
 
 - Rust (stable) via rustup
-- Node 20+ and pnpm 9+
+- Node 22+ and pnpm 11+
 - macOS (current target). Grant the app **Accessibility** permission for text
   injection once that lands.
 
