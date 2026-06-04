@@ -4,6 +4,7 @@ members = [
     "apps/desktop/src-tauri",
     "crates/audio",
     "crates/transcribe",
+    "crates/session",
 ]
 
 [workspace.package]
